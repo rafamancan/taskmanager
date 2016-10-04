@@ -26,4 +26,5 @@ class Tasks extends Model
      * @var bool
      */
     public $timestamps = true;
+
 }

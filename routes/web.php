@@ -16,5 +16,10 @@ Route::get('/', 'UserController@index');
 Route::post('validateUserLogin', 'UserController@validateUserLogin');
 
 // pages
+
+// initial page
 Route::get('home', 'SystemController@home');
+
+// tasks
 Route::get('tasks', 'TasksController@new');
+Route::post('tasks/new', 'TasksController@create');

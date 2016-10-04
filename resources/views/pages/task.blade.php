@@ -6,6 +6,7 @@
 
 @section('content')
 
+    @include('pages.tasks.new')
 
     {{-- to list tasks --}}
     @if ( count($tasks) === 0 )
